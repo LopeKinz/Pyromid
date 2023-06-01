@@ -5,7 +5,7 @@ from bit import Key
 
 def _HexGen(size):
     key = ""
-    for i in range(size):
+    for _ in range(size):
         k = str(random.choice("0123456789abcdef"))
         key += f"{k}"
     return key

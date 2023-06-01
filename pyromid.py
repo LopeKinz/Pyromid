@@ -112,7 +112,7 @@ while True:
                                    f'PRIVATEKEY: {PrivateKey}\n'
                                    f'Mnemonic: {wod}\n'
                                    f'-------------------------- MMDRZA.COM --------------------------\n')
-        print(f"Successfully Saved Match Address In Found.txt Can Checked Now.")
+        print("Successfully Saved Match Address In Found.txt Can Checked Now.")
 
     else:
         lnm = f"{yellow}-{reset}"
